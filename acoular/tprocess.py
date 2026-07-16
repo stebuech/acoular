@@ -1737,10 +1737,8 @@ class TimeReverse(TimeOut):
         yield temp[:nsh]
 
 
-class Filter(TimeOut):
+class Filter2(TimeOut):
     """
-    Abstract base class for IIR filters using SciPy's :func:`~scipy.signal.sosfilt`.
-
     This class implements a digital Infinite Impulse Response (IIR) filter that applies filtering to
     a given signal in a block-wise manner. The filter coefficients can be dynamically changed during
     processing.
